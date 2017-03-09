@@ -2,5 +2,3 @@
 .gitignore
 .idea/libraries/
 .idea/vcs.xml
-lib/
-src/
