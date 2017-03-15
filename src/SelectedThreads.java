@@ -7,12 +7,21 @@ import com.android.ddmlib.ThreadInfo;
  */
 public class SelectedThreads {
 
+    /**
+     *
+     */
     private  final IDevice device;
 
+    /**
+     * @param device
+     */
     public SelectedThreads(IDevice device) {
         this.device = device;
     }
 
+    /**
+     *
+     */
     public void getListThreads() {
         Client runningApp = device.getClient("com.android.calemdar");
         ThreadInfo[] threadInfos = runningApp.getClientData().getThreads();

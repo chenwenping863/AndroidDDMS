@@ -22,7 +22,7 @@ public class GetDevices {
     /**
      * @param bridge
      */
-    public static void waitForDevice(AndroidDebugBridge bridge) {
+    protected static void waitForDevice(AndroidDebugBridge bridge) {
         int count = 0;
         while (!bridge.hasInitialDeviceList()) {
             try {

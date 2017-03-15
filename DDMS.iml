@@ -8,5 +8,12 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="ddmlib" level="project" />
+    <orderEntry type="library" name="selenium-server-standalone-2.25.0" level="project" />
+    <orderEntry type="library" name="selenium-java-2.25.0-srcs" level="project" />
+    <orderEntry type="library" name="ini4j-0.5.2" level="project" />
+    <orderEntry type="library" name="classes_dex2jar" level="project" />
+    <orderEntry type="library" name="testng-6.9.10" level="project" />
+    <orderEntry type="library" name="reportng-1.1.4" level="project" />
+    <orderEntry type="library" name="testng-5.8-jdk15" level="project" />
   </component>
 </module>
